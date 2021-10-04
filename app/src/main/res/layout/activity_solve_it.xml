@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:id="@+id/solveParent"
+    tools:context=".SolveItActivity">
+
+    <TextView
+        android:id="@+id/tv_timer_solveit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textView"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_exp_solveit"
+        style="@style/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_opt1_solveit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/textView"/>
+
+        <TextView
+            android:id="@+id/tv_opt2_solveit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/textView"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_opt3_solveit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/textView"/>
+        <TextView
+            android:id="@+id/tv_opt4_solveit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/textView"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_score_solveit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Score"
+        style="@style/textView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_reset_solveit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Reset"
+            android:width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_Finish_solveit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Finish"
+            android:width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_home_solveit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Home"
+            android:width="0dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:padding="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/parent"
+    android:background="@color/black"
+    tools:context=".GuessItActivity">
+
+    <TextView
+        android:id="@+id/tv_guessit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guess the number (1-100)"
+        style="@style/textView"
+        android:background="@color/black"/>
+
+    <EditText
+        android:id="@+id/tv_enterguess_guessit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your guess"
+        android:inputType="number"
+        style="@style/textView"/>
+
+    <TextView
+        android:id="@+id/tv_check_guessit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Check"
+        android:textSize="28sp"
+        style="@style/textView"/>
+    <TextView
+        android:id="@+id/tv_warning_guessit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textView"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_score_guessit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Score"
+        style="@style/textView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_reset_guessit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Reset"
+            android:width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_Finish_guessit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Finish"
+            android:width="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_home_guessit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Home"
+            android:width="0dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

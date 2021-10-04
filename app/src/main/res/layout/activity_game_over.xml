@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GameOverActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER !!!!"
+        style="@style/textView"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR SCORE"
+        style="@style/textView"/>
+    <TextView
+        android:id="@+id/tv_yourscore_gameover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGH SCORE"
+        style="@style/textView"/>
+
+    <TextView
+        android:id="@+id/tv_highscore_gameover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textView"/>
+
+
+        <TextView
+            android:id="@+id/tv_home_gameover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="Home"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+
