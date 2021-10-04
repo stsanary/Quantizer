@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         play=findViewById(R.id.tv_play_main);
         exit=findViewById(R.id.tv_exit_main);
 
+        getSupportActionBar().hide();
+
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override

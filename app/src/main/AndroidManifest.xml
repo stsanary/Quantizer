@@ -11,18 +11,23 @@
         android:theme="@style/Theme.Quantizer">
         <activity
             android:name=".GameOverActivity"
+            android:screenOrientation="portrait"
             android:exported="true" />
         <activity
             android:name=".SolveItActivity"
+            android:screenOrientation="portrait"
             android:exported="true" />
         <activity
             android:name=".GuessItActivity"
+            android:screenOrientation="portrait"
             android:exported="true" />
         <activity
             android:name=".HomeAcitivity"
+            android:screenOrientation="portrait"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

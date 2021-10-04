@@ -33,6 +33,7 @@ public class GuessItActivity extends AppCompatActivity {
         reset= findViewById(R.id.tv_reset_guessit);
         home=findViewById(R.id.tv_home_guessit);
 
+        getSupportActionBar().hide();
 
         finish.setOnClickListener(new View.OnClickListener() {
             @Override

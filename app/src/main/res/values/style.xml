@@ -7,7 +7,7 @@
         <item name="android:textAlignment">center</item>
         <item name="android:textSize">32sp</item>
         <item name="android:background">@color/blue</item>
-        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_margin">20sp</item>
         <item name="android:padding">20dp</item>
 
     </style>

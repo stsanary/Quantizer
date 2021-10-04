@@ -34,6 +34,7 @@ public class SolveItActivity extends AppCompatActivity {
         timer=findViewById(R.id.tv_timer_solveit);
         finish=findViewById(R.id.tv_Finish_solveit);
 
+        getSupportActionBar().hide();
 
         finish.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -24,6 +24,7 @@ public class GameOverActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_over);
+        getSupportActionBar().hide();
 
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");

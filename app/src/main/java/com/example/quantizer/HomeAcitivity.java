@@ -19,6 +19,8 @@ public class HomeAcitivity extends AppCompatActivity {
         solveit= findViewById(R.id.tv_solveit_home);
         mainmenu=findViewById(R.id.tv_MainMenu_home);
 
+        getSupportActionBar().hide();
+
 
         guessit.setOnClickListener(new View.OnClickListener() {
             @Override
